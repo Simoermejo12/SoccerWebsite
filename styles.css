@@ -1,0 +1,65 @@
+body{
+    background-image: url(/SoccerWeb/images/pexels-photo-364308.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+#centralizedTitle{
+    text-align: center;
+    color: rgb(0, 153, 255)
+}
+
+.left{
+    left: 2;
+    height: 100; 
+    width: 45%;
+    position: absolute;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: rgb(5, 56, 90);
+    color: rgb(172, 100, 17);
+    font-size:1.1rem;
+    padding: 10px;
+}
+
+.rigth{
+    right: 0;
+    height: 100; 
+    width: 50%;
+    position: absolute;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: rgb(5, 56, 90);
+    height:5;
+    padding-bottom: 6.9em;
+    color: rgb(172, 100, 17);
+    font-size: 1.1rem;
+    
+}
+
+.mid{
+right: 2;
+bottom: 50%;
+position: static ;
+padding-top: 300px; 
+}
+#centralizedMid{
+    text-align: center;
+}
+.links{
+    position: relative;
+    padding-top:200px ;
+}
+a{
+    transition: all 0.3s ease-in-out; 
+    background-color: rgb(111, 212, 252);
+    color: rgb(202, 98, 202);
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    
+}
+a:hover{
+    background-color: rgb(52, 212, 151);
+    color: black;
+}
